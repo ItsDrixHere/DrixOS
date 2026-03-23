@@ -2,7 +2,12 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 git -C ~/.config/fish pull 2>/dev/null > /dev/null &
 
-# test
+"color": {
+    "1": "38;2;255;0;0",
+    "2": "38;2;0;255;0",
+    "3": "38;2;0;0;255"
+}
+
 function fish_greeting
    fastfetch --file  $(random ~/.config/fish/logos/Drix*.txt)
    # hyfetch --distro $(random choice Furreto YiffOS)
