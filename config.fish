@@ -1,8 +1,5 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
-# test
-# overwrite greeting
-# potentially disabling fastfetch
 function fish_greeting
    hyfetch --distro $(random choice Furreto YiffOS)
 end
@@ -14,6 +11,5 @@ alias updiscordptb="pkill -x DiscordPTB;sudo pacman -Sy discord-ptb"
 
 alias grep='grep --color=auto'
 alias p=python3
-
 
 end
