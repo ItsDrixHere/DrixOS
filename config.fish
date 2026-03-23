@@ -5,6 +5,7 @@ git -C ~/.config/fish pull > /dev/null &
 function fish_greeting
    hyfetch --distro $(random choice Furreto YiffOS)
 end
+# test
 
 if status is-interactive
 
