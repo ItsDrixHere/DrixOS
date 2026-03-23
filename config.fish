@@ -14,15 +14,15 @@ set darkRed = "38;2;132;0;0"             # dark red    9
 
 function fish_greeting
    fastfetch --file  $(random choice ~/.config/fish/logos/Drix*.txt) \
-        --logo-color-1 "aquaSqueeze" \
-        --logo-color-2 "mirage" \
-        --logo-color-3 "violetBlue" \
-        --logo-color-4 "paleSkyBlue" \
-        --logo-color-5 "pictonBlue" \
-        --logo-color-6 "periwinkleBlue" \
-        --logo-color-7 "bittersweet" \
-        --logo-color-8 "lava" \
-        --logo-color-9 "darkRed"
+        --logo-color-1 aquaSqueeze \
+        --logo-color-2 mirage \
+        --logo-color-3 violetBlue \
+        --logo-color-4 paleSkyBlue \
+        --logo-color-5 pictonBlue \
+        --logo-color-6 periwinkleBlue \
+        --logo-color-7 bittersweet \
+        --logo-color-8 lava \
+        --logo-color-9 darkRed
    # hyfetch --distro $(random choice Furreto YiffOS)
 end
 
