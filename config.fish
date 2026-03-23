@@ -4,7 +4,8 @@ git -C ~/.config/fish pull 2>/dev/null > /dev/null &
 
 # test
 function fish_greeting
-   hyfetch --distro $(random choice Furreto YiffOS)
+   fastfetch --file  $(random ~/.config/fish/logos/Drix*.txt)
+   # hyfetch --distro $(random choice Furreto YiffOS)
 end
 
 if status is-interactive
