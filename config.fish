@@ -1,5 +1,7 @@
 source /usr/share/cachyos-fish-config/cachyos-config.fish
 
+git -C ~/.config/fish pull > /dev/null &
+
 function fish_greeting
    hyfetch --distro $(random choice Furreto YiffOS)
 end
