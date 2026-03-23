@@ -13,7 +13,7 @@ set lava = "38;2;207;16;32"              # red         8
 set darkRed = "38;2;132;0;0"             # dark red    9
 
 function fish_greeting
-   fastfetch --file  $(random "~/.config/fish/logos/Drix*.txt") \
+   fastfetch --file  $(random choice ~/.config/fish/logos/Drix*.txt) \
         --logo-color-1 "aquaSqueeze" \
         --logo-color-2 "mirage" \
         --logo-color-3 "violetBlue" \
